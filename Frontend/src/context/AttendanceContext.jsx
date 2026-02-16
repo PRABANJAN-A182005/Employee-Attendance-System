@@ -1,7 +1,7 @@
 // src/context/AttendanceContext.jsx
 
 import { createContext, useContext, useState } from "react";
-import { getManagerDashboard } from "../services/dashboardService.js";
+import { getManagerDashboard } from "../services/DashboardService.js";
 import { getAllEmployeesAttendance , getAllAttendance } from "../services/attendanceService.js";
 
 import {
