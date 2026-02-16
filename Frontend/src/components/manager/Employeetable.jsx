@@ -1,6 +1,6 @@
 // src/components/manager/EmployeeTable.jsx
 
-import { formatDate, formatTime } from "../../utils/formatDate";
+import { formatDate, formatTime } from "../../utils/formatDate.js";
 
 export default function EmployeeTable({ data = [] }) {
   if (!data.length) {

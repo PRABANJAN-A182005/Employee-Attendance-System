@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import Loader from "../../components/common/Loader";
-import { useAttendance } from "../../context/AttendanceContext";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import Loader from "../../components/common/Loader.jsx";
+import { useAttendance } from "../../context/AttendanceContext.jsx";
 
 export default function TeamCalendar() {
   const [date, setDate] = useState(new Date());

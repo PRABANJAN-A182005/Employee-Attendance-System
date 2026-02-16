@@ -3,7 +3,7 @@
 // ==========================
 // API BASE URL
 // ==========================
-export const BASE_URL = "http://localhost:5000/api";
+export const BASE_URL = "https://employee-attendance-system-7egl.onrender.com/api";
 
 
 // ==========================

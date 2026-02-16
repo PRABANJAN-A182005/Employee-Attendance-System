@@ -1,13 +1,13 @@
 // src/pages/employee/MyAttendanceHistory.jsx
 
 import { useEffect } from "react";
-import { useAttendance } from "../../context/AttendanceContext";
+import { useAttendance } from "../../context/AttendanceContext.jsx";
 
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import Loader from "../../components/common/Loader";
-import AttendanceTable from "../../components/employee/AttendanceTable";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import Loader from "../../components/common/Loader.jsx";
+import AttendanceTable from "../../components/employee/AttendanceTable.jsx";
 
 export default function MyAttendanceHistory() {
   const { history, loading, fetchHistory } = useAttendance();

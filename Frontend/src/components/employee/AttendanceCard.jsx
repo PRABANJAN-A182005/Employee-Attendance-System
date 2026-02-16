@@ -1,6 +1,6 @@
 // src/components/employee/AttendanceCard.jsx
 
-import { formatTime, formatDate } from "../../utils/formatDate";
+import { formatTime, formatDate } from "../../utils/formatDate.js";
 
 export default function AttendanceCard({ data }) {
   if (!data) {

@@ -1,13 +1,13 @@
 // src/services/api.js
 
 import axios from "axios";
-import { STORAGE_KEYS } from "../utils/constants";
+import { STORAGE_KEYS } from "../utils/constants.js";
 
 // ==========================
 // Create Axios Instance
 // ==========================
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_URL,
   headers: {
     "Content-Type": "application/json",
   },

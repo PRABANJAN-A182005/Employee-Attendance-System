@@ -1,6 +1,6 @@
 // src/components/employee/AttendanceTable.jsx
 
-import { formatDate, formatTime } from "../../utils/formatDate";
+import { formatDate, formatTime } from "../../utils/formatDate.js";
 
 export default function AttendanceTable({ data = [] }) {
   if (!data.length) {

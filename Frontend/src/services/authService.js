@@ -1,6 +1,6 @@
 // src/services/authService.js
 
-import api from "./api";
+import api from "./api.js";
 
 // ==========================
 // LOGIN

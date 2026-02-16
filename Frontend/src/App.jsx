@@ -3,26 +3,26 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 
 // Home page
-import Home from "./pages/Home";
+import Home from "./pages/Home.jsx";
 
 // Auth Pages
-import Login from "./pages/auth/login";
-import Register from "./pages/auth/register";
+import Login from "./pages/auth/login.jsx";
+import Register from "./pages/auth/register.jsx";
 
 // Employee Pages
-import EmployeeDashboard from "./pages/employee/emploeeDashboard";
-import MyAttendanceHistory from "./pages/employee/myAttendanceHistory";
-import Profile from "./pages/employee/Profile";
+import EmployeeDashboard from "./pages/employee/emploeeDashboard.jsx";
+import MyAttendanceHistory from "./pages/employee/myAttendanceHistory.jsx";
+import Profile from "./pages/employee/Profile.jsx";
 
 // Manager Pages
-import ManagerDashboard from "./pages/manager/managerDashboard";
-import AllEmployeesAttendance from "./pages/manager/AllEmployeeAttendance";
-import Reports from "./pages/manager/report";
-import TeamCalendar from "./pages/manager/Teamcalender";
+import ManagerDashboard from "./pages/manager/managerDashboard.jsx";
+import AllEmployeesAttendance from "./pages/manager/AllEmployeeAttendance.jsx";
+import Reports from "./pages/manager/report.jsx";
+import TeamCalendar from "./pages/manager/Teamcalender.jsx";
 
 // Common
-import NotFound from "./pages/NotFound";
-import ProtectedRoute from "./components/common/ProtectedRoute";
+import NotFound from "./pages/NotFound.jsx";
+import ProtectedRoute from "./components/common/ProtectedRoute.jsx";
 
 function App() {
   return (

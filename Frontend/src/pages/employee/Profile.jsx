@@ -1,9 +1,9 @@
 // src/pages/employee/Profile.jsx
 
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import { useAuth } from "../../context/AuthContext";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import { useAuth } from "../../context/AuthContext.jsx";
 
 export default function Profile() {
   const { user } = useAuth();

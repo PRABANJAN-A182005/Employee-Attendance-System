@@ -1,13 +1,13 @@
 // src/pages/manager/AllEmployeesAttendance.jsx
 
 import { useEffect, useState } from "react";
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import Loader from "../../components/common/Loader";
-import EmployeeTable from "../../components/manager/EmployeeTable";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import Loader from "../../components/common/Loader.jsx";
+import EmployeeTable from "../../components/manager/Employeetable.jsx";
 
-import { useAttendance } from "../../context/AttendanceContext";
+import { useAttendance } from "../../context/AttendanceContext.jsx";
 
 export default function AllEmployeesAttendance() {
   const { allEmployeesAttendance, fetchAllEmployeesAttendance, loading } =

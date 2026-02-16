@@ -1,8 +1,8 @@
 // src/context/AuthContext.jsx
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { loginUser, registerUser } from "../services/authService";
-import { STORAGE_KEYS } from "../utils/constants";
+import { loginUser, registerUser } from "../services/authService.js";
+import { STORAGE_KEYS } from "../utils/constants.js";
 
 const AuthContext = createContext({
   user: null,

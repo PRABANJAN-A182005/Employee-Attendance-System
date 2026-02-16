@@ -1,12 +1,11 @@
 // src/pages/manager/Reports.jsx
 
 import { useState } from "react";
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import Loader from "../../components/common/Loader";
-import { useAttendance } from "../../context/AttendanceContext";
-import { exportAttendanceCSV } from "../../services/attendanceService";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import { useAttendance } from "../../context/AttendanceContext.jsx";
+import { exportAttendanceCSV } from "../../services/attendanceService.js";
 
 export default function Reports() {
   const { loading } = useAttendance();

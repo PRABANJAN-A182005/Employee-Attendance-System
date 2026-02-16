@@ -1,6 +1,6 @@
 // src/services/attendanceService.js
 
-import api from "./api";
+import api from "./api.js";
 
 // ==========================
 // EMPLOYEE APIs

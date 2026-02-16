@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import Navbar from "../../components/common/Navbar";
-import Sidebar from "../../components/common/Sidebar";
-import Footer from "../../components/common/Footer";
-import Loader from "../../components/common/Loader";
+import Navbar from "../../components/common/Navbar.jsx";
+import Sidebar from "../../components/common/Sidebar.jsx";
+import Footer from "../../components/common/Footer.jsx";
+import Loader from "../../components/common/Loader.jsx";
 
-import WeeklyTrendChart from "../../components/manager/WeeklyTrendChart";
-import DepartmentChart from "../../components/manager/DepartmentChart";
-import AbsentList from "../../components/manager/AbsentList";
+import WeeklyTrendChart from "../../components/manager/WeeklyTrendChart.jsx";
+import DepartmentChart from "../../components/manager/DepartmentChart.jsx";
+import AbsentList from "../../components/manager/AbsentList.jsx";
 
-import { useAuth } from "../../context/AuthContext";
-import { useAttendance } from "../../context/AttendanceContext";
+import { useAuth } from "../../context/AuthContext.jsx";
+import { useAttendance } from "../../context/AttendanceContext.jsx";
 
 export default function ManagerDashboard() {
   const { user } = useAuth();

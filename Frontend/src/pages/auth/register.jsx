@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../../context/AuthContext";
-import Loader from "../../components/common/Loader";
+import { useAuth } from "../../context/AuthContext.jsx";
+import Loader from "../../components/common/Loader.jsx";
 
 export default function Register() {
   const { register } = useAuth();

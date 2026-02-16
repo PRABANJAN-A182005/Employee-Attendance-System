@@ -1,8 +1,8 @@
 // src/context/AttendanceContext.jsx
 
 import { createContext, useContext, useState } from "react";
-import { getManagerDashboard } from "../services/dashboardService";
-import { getAllEmployeesAttendance , getAllAttendance } from "../services/attendanceService";
+import { getManagerDashboard } from "../services/dashboardService.js";
+import { getAllEmployeesAttendance , getAllAttendance } from "../services/attendanceService.js";
 
 import {
   checkInUser,
