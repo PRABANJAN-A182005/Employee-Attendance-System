@@ -4,7 +4,7 @@ import Sidebar from "../../components/common/Sidebar.jsx";
 import Footer from "../../components/common/Footer.jsx";
 import Loader from "../../components/common/Loader.jsx";
 
-import WeeklyTrendChart from "../../components/manager/WeeklyTrendChart.jsx";
+import WeeklyTrendChart from "../../components/manager/WeeklyTrendchart.jsx";
 import DepartmentChart from "../../components/manager/DepartmentChart.jsx";
 import AbsentList from "../../components/manager/AbsentList.jsx";
 
