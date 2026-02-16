@@ -8,7 +8,7 @@ import Sidebar from "../../components/common/Sidebar.jsx";
 import Footer from "../../components/common/Footer.jsx";
 import Loader from "../../components/common/Loader.jsx";
 
-import SummaryCards from "../../components/employee/SummaryCards.jsx";
+import SummaryCards from "../../components/employee/summaryCards.jsx";
 import AttendanceCard from "../../components/employee/AttendanceCard.jsx";
 import CheckInOutButton from "../../components/employee/CheckInOutButton.jsx";
 import AttendanceTable from "../../components/employee/AttendanceTable.jsx";
