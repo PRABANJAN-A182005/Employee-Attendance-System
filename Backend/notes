@@ -1,0 +1,37 @@
+username:- prabanjanoffical_db_user
+pass:-5EMlr4DFOOpRgUFk
+
+Backend/
+│
+├── config/ ✅
+│   └── db.js ✅
+│
+├── controllers/ ✅
+│   ├── authController.js ✅
+│   ├── attendanceController.js ✅
+│   └── dashboardController.js ✅
+│
+├── models/ ✅
+│   ├── User.js ✅
+│   └── Attendance.js ✅
+│
+├── routes/ ✅
+│   ├── authRoutes.js ✅
+│   ├── attendanceRoutes.js ✅
+│   └── dashboardRoutes.js ✅
+│
+├── middleware/
+│   ├── authMiddleware.js ✅
+│   ├── roleMiddleware.js
+│   └── errorMiddleware.js
+│
+├── utils/
+│   ├── generateToken.js
+│   ├── calculateHours.js
+│   └── csvExporter.js
+│
+│
+├── .env
+├── .gitignore
+├── package.json
+└── server.js

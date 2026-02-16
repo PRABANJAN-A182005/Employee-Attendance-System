@@ -1,0 +1,64 @@
+frontend/
+│
+├── public/ ✅
+│
+├── src/ ✅
+│   ├── assets/
+│   │   └── images/
+│
+│   ├── components/
+│   │   ├── common/ ✅
+│   │   │   ├── Navbar.jsx ✅
+│   │   │   ├── Sidebar.jsx ✅
+│   │   │   ├── Footer.jsx ✅
+│   │   │   ├── ProtectedRoute.jsx ✅
+│   │   │   └── Loader.jsx ✅
+│   │   │
+│   │   ├── employee/ ✅
+│   │   │   ├── AttendanceCard.jsx ✅
+│   │   │   ├── CheckInOutButton.jsx ✅
+│   │   │   ├── AttendanceTable.jsx ✅
+│   │   │   └── SummaryCards.jsx ✅
+│   │   │
+│   │   └── manager/ ✅
+│   │       ├── EmployeeTable.jsx ✅
+│   │       ├── DepartmentChart.jsx ✅
+│   │       ├── WeeklyTrendChart.jsx ✅
+│   │       └── AbsentList.jsx ✅
+│
+│   ├── pages/
+│   │   ├── auth/ ✅
+│   │   │   ├── Login.jsx ✅
+│   │   │   └── Register.jsx ✅
+│   │   │
+│   │   ├── employee/ ✅
+│   │   │   ├── EmployeeDashboard.jsx ✅
+│   │   │   ├── MyAttendanceHistory.jsx ✅
+│   │   │   └── Profile.jsx ✅
+│   │   │
+│   │   ├── manager/ ✅
+│   │   │   ├── ManagerDashboard.jsx ✅
+│   │   │   ├── AllEmployeesAttendance.jsx ✅
+│   │   │   ├── Reports.jsx ✅
+│   │   │   └── TeamCalendar.jsx ✅
+│   │   │
+│   │   └── NotFound.jsx ✅
+│
+│   ├── context/ ✅
+│   │   ├── AuthContext.jsx ✅
+│   │   └── AttendanceContext.jsx ✅
+│
+│   ├── services/ ✅
+│   │   ├── api.js ✅
+│   │   ├── authService.js ✅
+│   │   ├── attendanceService.js ✅
+│   │   └── dashboardService.js ✅
+│
+│   ├── utils/ ✅
+│   │   ├── formatDate.js ✅
+│   │   └── constants.js ✅
+│
+│   ├── App.jsx ✅
+│   └── main.jsx ✅
+│
+└── package.json ✅
