@@ -1,11 +1,3 @@
-Perfect Prabanjan 👌🔥
-Here is a **clean, professional, ready-to-paste `README.md`** for your GitHub repository.
-
-You can copy everything below and paste it directly into your GitHub `README.md`.
-
----
-
-```markdown
 # 🏢 Employee Attendance System (MERN Stack)
 
 A Full-Stack Employee Attendance Management System built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
