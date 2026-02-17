@@ -1,5 +1,10 @@
 # 🏢 Employee Attendance System (MERN Stack)
 
+**Prabanjan A**
+VH12535
+Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College 
+BE ECE | MERN Stack Developer
+
 A Full-Stack Employee Attendance Management System built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
 This application allows organizations to manage employee attendance with secure authentication, role-based dashboards, and performance analytics.
