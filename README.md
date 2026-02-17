@@ -263,3 +263,11 @@ screenshots/
 ```
 Tell me what you want next 🚀
 ```
+<img width="1365" height="767" alt="login" src="https://github.com/user-attachments/assets/98819dc1-f463-4613-b8f3-82fdc801be1d" />
+<img width="1365" height="767" alt="employee dashboard" src="https://github.com/user-attachments/assets/993218e4-f317-4948-8bbb-806a497b0355" />
+<img width="1365" height="767" alt="attend history" src="https://github.com/user-attachments/assets/0b5431a5-0d27-40bf-a985-9a434125f578" />
+<img width="1365" height="767" alt="profile" src="https://github.com/user-attachments/assets/72217976-5bd4-4c2b-8543-cde872455aa0" />
+<img width="1365" height="767" alt="manager dashboard" src="https://github.com/user-attachments/assets/b40562d6-1b23-4073-847f-91fc3c223f75" />
+<img width="1365" height="767" alt="all employees attendance" src="https://github.com/user-attachments/assets/3841d3f9-8dbb-424e-9b7a-a419b6065d3f" />
+<img width="1356" height="767" alt="attendance reports" src="https://github.com/user-attachments/assets/f5a60936-0520-4af2-84c3-fa89c2ecc9f6" />
+<img width="1365" height="765" alt="team calender" src="https://github.com/user-attachments/assets/becc664e-eb4a-449e-ad3f-4b09d3b36dfd" />
