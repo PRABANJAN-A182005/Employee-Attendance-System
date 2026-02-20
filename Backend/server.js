@@ -27,12 +27,21 @@ const app = express();
 ================================================= */
 
 // Enable CORS
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://employee-attendance-system-three.vercel.app"
+];
+
 app.use(cors({
-  origin: "https://employee-attendance-system-three.vercel.app",
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
-
 
 // Parse JSON
 app.use(express.json());
