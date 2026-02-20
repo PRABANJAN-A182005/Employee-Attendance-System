@@ -27,7 +27,12 @@ const app = express();
 ================================================= */
 
 // Enable CORS
-app.use(cors());
+app.use(cors({
+  origin: "https://employee-attendance-system-three.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 
 // Parse JSON
 app.use(express.json());
